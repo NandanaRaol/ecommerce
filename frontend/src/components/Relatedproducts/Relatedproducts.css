@@ -1,0 +1,34 @@
+
+.relatedproducts 
+{
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height:530px;
+  }
+  .relatedproducts h1
+   {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+    text-align: center;
+  }
+
+  .relatedproducts hr 
+  {
+    border: none;
+    height: 2px;
+    background-color: #ddd;
+    margin: 10px 0;
+  }
+  .relatedproducts-item 
+  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 15px;
+  }
+  

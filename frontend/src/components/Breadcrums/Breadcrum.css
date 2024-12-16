@@ -1,0 +1,34 @@
+
+.breadcrum {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #333;
+    margin: 40px 0;
+    font-weight:400px;
+    margin-left:30px;
+  }
+  
+  .breadcrum img {
+    margin: 0 8px;
+    width: 12px; 
+    height: 12px;
+  }
+  
+  .breadcrum span {
+    font-weight: bold;
+  }
+  
+  .breadcrum a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .breadcrum a:hover {
+    text-decoration: underline;
+  }
+
+  .breadcrum img {
+    vertical-align: middle;
+  }
+  

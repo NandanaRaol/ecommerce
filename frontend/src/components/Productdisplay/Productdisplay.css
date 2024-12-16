@@ -1,0 +1,147 @@
+.productdisplay {
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+    background-color: #f9f9f9;
+  }
+  
+  .productdisplay-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .productdisplay-img-list {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .productdisplay-img-list img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    flex-direction:column;
+  }
+  
+  .productdisplay-main-img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .productdisplay-right {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .productdisplay-right h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .productdisplay-right-star {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+  }
+  
+  .productdisplay-right-star img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .productdisplay-right-star p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  .productdisplay-right-prices {
+    display: flex;
+    gap: 1rem;
+    align-items: baseline;
+  }
+  
+  .productdisplay-right-price-old {
+    text-decoration: line-through;
+    color: #999;
+    font-size: 1.2rem;
+  }
+  
+  .productdisplay-right-price-new {
+    color: #e63946;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .productdisplay-right-description {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .productdisplay-right-size {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .productdisplay-right-size h1 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .productdisplay-right-size-options {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .productdisplay-right-size-options div {
+    padding: 0.5rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 1rem;
+    color: #333;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .productdisplay-right-size-options div:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  button {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #e63946;
+    color: red;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: auto; 
+    max-width: 350px; 
+    height: 50px;
+    display: inline-block; 
+  }
+  
+  
+  
+  button:hover {
+    background-color: #d32f2f;
+  }
+  
+  
+  
